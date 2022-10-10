@@ -1,0 +1,8 @@
+import {fade} from 'svelte/transition'
+import Icon from '@iconify/svelte/dist/Icon.svelte'
+
+let mobileNavOpen = false 
+
+function toggleMobileNav() {
+  mobileNavOpen = !mobileNavOpen
+}
